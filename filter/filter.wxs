@@ -1,0 +1,12 @@
+// 拼接遍历的wxParse下标
+var formatIndex = function(data,index){
+  if(data && index){
+    console.log([index + '-' + data] + 'nodes');
+    return [index + '-' + data]['nodes']
+  }
+  
+}
+
+module.exports = {
+  formatIndex: formatIndex
+}

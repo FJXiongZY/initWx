@@ -1,0 +1,6 @@
+#signModal .imgBox{display: flex;flex-direction: column;align-items: center;position: relative;}
+#signModal .imgBox .lineBox{width:1rpx;position: absolute;bottom: -75rpx;left:50%;
+    display: flex;flex-direction: column;align-items: center;
+}
+#signModal .imgBox .lineBox .line{width: 1rpx;height: 120rpx;border: 1rpx dashed #ff7912;}
+#signModal .imgBox .lineBox image{width: 60rpx;}

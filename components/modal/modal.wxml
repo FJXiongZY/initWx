@@ -1,0 +1,6 @@
+<view class="modal" wx:if="{{isshow}}" catchtouchmove="_strike">
+    <view class="shade" catchtap="shadeHide"></view>
+    <view class="content" style="background:{{contentBackground}}" catchtap="_strike">
+        <slot></slot>
+    </view>
+</view>

@@ -1,0 +1,11 @@
+<view>首页</view>
+
+<modal id="signModal" contentBackground="transparent">
+    <view class="imgBox">
+        <image src="/images/sign_in.png" mode="widthFix" />
+        <view class="lineBox">
+            <text class="line"></text>
+            <image src="/images/modalClose.png" mode="widthFix" catchtap="closeSignModal" />
+        </view>
+    </view>
+</modal>

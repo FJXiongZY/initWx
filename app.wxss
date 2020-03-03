@@ -1,0 +1,33 @@
+/* 引入字体图标样式 */
+@import './iconfont.wxss';
+
+page {background: #F7F7F9; width:100vw;min-height: 100vh;font-size: 28rpx;color:#333333;line-height: 1;}
+image{display: inline-block;width: 100%;height: 100%;}
+view,text,icon,button{line-height: 1;border: none;outline:none;}
+view,text,icon,image,input,swiper,swiper-item,button,checkbox,form,label,picker,picker-view,radio,radio-group,slider,switch,textarea{box-sizing: border-box;}
+.container{border-top: 2rpx solid #f5f5f5;box-sizing: border-box;}
+
+/* 处理文本溢出 */
+.text-elis-1{overflow: hidden; white-space: nowrap; text-overflow: ellipsis;}
+.text-elis-2{display: -webkit-box; overflow: hidden; white-space: normal !important; text-overflow: ellipsis; word-wrap: break-word; -webkit-line-clamp: 2; -webkit-box-orient: vertical;}
+.text-elis-3{display: -webkit-box; overflow: hidden; white-space: normal !important; text-overflow: ellipsis; word-wrap: break-word; -webkit-line-clamp: 3; -webkit-box-orient: vertical;}
+
+/* 处理浮动 */
+.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden;}
+.clearfix{zoom:1;}
+
+
+.hidden{display: none!important;}
+
+
+/* 盒子方向处理 */
+.row{display: flex;flex-direction: row;align-items: center;}
+.row-left{justify-content: flex-start;}
+.row-right{justify-content: flex-end;}
+.row-center{justify-content: center;}
+
+.column{display: flex;flex-direction: column;justify-content: center;}
+.column-left{align-items: flex-start;}
+.column-right{align-items: flex-end;}
+.column-center{align-items: center;}
+.center{display: flex;align-items: center;justify-content: center;}

@@ -1,0 +1,6 @@
+<view class="mode auth" wx:if="{{isshow}}">
+    <!--授权弹窗-->
+    <view class="content-wrap">
+        <button open-type="getUserInfo" bindgetuserinfo="_onGotUserInfo">授权登录</button>
+    </view>
+</view>
